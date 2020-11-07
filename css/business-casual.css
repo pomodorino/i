@@ -6,11 +6,16 @@
 
 body {
   font-family: 'Lora';
-  background-image: linear-gradient(rgba(40,24,110,.2), rgba(40,24,110,.2)), url("../img/bg.jpg");
+  background-image: linear-gradient(rgba(27,33,47,.3), rgba(27,33,47,.3)), url("../img/bg.jpg");
   
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+}
+
+.index3 {
+background-image: linear-gradient(rgba(27,33,47,.6), rgba(27,33,47,.6)), url("../img/bg.jpg") !important; 
+
 }
 
 h1,
@@ -232,11 +237,11 @@ p {
 }
 
 .text-primary {
-  color: #28186e !important;
+  color: #1B212F !important;
 }
 
 .bg-primary {
-  background-color: #28186e !important;
+  background-color: #1B212F !important;
 }
 
 .btn {
@@ -244,13 +249,13 @@ p {
 }
 
 .btn-primary {
-  background-color: #28186e;
-  border-color: #28186e;
+  background-color: #1B212F;
+  border-color: #1B212F;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #554599;
-  border-color: #554599;
+  background-color: #536591;
+  border-color: #536591;
 }
 
 .font-weight-light {
