@@ -83,6 +83,44 @@
 					   <p class="mb-3">
 		  	  There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
 			  
+<button id="alert-trigger">
+  Trigger Alert
+</button>
+<div id="example" role="alert"></div>
+<script type="text/template" id="alert-template">
+  <p><span lang="da">Hej</span>, hello, <span lang="it">ciao</span>, <span lang="ja">こんにちは</span>, <span lang="ko">안녕</span></p>
+</script>
+
+<script>
+window.addEventListener('load', function () {
+
+  var button = document.getElementById('alert-trigger');
+
+  button.addEventListener('click', addAlert);
+
+});
+
+/*
+* @function addAlert
+*
+* @desc Adds an alert to the page
+*
+* @param   {Object}  event  -  Standard W3C event object
+*
+*/
+
+function addAlert (event) {
+
+  var example = document.getElementById('example');
+  var template = document.getElementById('alert-template').innerHTML;
+
+  example.innerHTML = template;
+
+}
+</script>
+
+
+			  
 		 </p> 
             </div>
           </div>
