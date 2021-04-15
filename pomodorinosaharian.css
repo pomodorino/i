@@ -14,15 +14,15 @@
 }
 
 .Accordion.focus {
-  border-color: hsl(216, 94%, 73%);
+  border-color: #737373;
 }
 
 .Accordion.focus h3 {
-  background-color: hsl(0, 0%, 97%);
+  background-color: #F7F7F7;
 }
 
 .Accordion > * + * {
-  border-top: 1px solid hsl(0, 0%, 82%);
+  border-top: 1px solid #D1D1D1;
 }
 
 .Accordion-trigger {
@@ -41,7 +41,7 @@
 
 .Accordion-trigger:focus,
 .Accordion-trigger:hover {
-  background: hsl(216, 94%, 94%);
+  background: #f2f2f2;
 }
 
 .Accordion *:first-child .Accordion-trigger {
@@ -66,7 +66,7 @@ button {
 }
 
 .Accordion-trigger:focus .Accordion-title {
-  border-color: hsl(216, 94%, 73%);
+  border-color: #8d8d8d;
 }
 
 .Accordion-icon {
@@ -83,7 +83,7 @@ button {
 
 .Accordion-trigger:focus .Accordion-icon,
 .Accordion-trigger:hover .Accordion-icon {
-  border-color: hsl(216, 94%, 73%);
+  border-color: #8d8d8d;
 }
 
 .Accordion-trigger[aria-expanded="true"] .Accordion-icon {
