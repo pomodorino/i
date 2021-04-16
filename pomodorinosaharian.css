@@ -27,7 +27,7 @@
 
 .Accordion-trigger {
   background: none;
-  color: hsl(0, 0%, 13%);
+  color: #212121;
   display: block;
   font-size: 1rem;
   font-weight: normal;
